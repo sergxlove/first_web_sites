@@ -1,3 +1,4 @@
+/* Контент */
 span {
     font-style: italic;
 }
@@ -9,4 +10,35 @@ span {
     border-style: solid;
     border-width: 0.5px;
     padding-right: 20px;
+}
+.list_conteiner>p {
+    text-align: center;
+    font-weight: bold;
+}
+.image_conteiner 
+{
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.image_conteiner>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo_html{
+    max-width: 70px;
+}
+.code_html{
+    max-width: 300px;
+}
+/* Верхняя панель */
+.nav_conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_conteiner>nav>ul {
+    display: flex;
 }
