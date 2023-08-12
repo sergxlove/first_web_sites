@@ -42,7 +42,7 @@ span {
 .nav_conteiner {
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(225, 225, 225);
 }
 .nav_conteiner>nav>ul {
     display: flex;
@@ -67,7 +67,34 @@ span {
 }
 .header {
     width: 14%;
+    background-color: rgb(225, 225, 225);
 }
 .section {
     width: 82%;
+}
+.text {
+    padding-left: 15px;
+}
+.header>ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.header>div {
+    width: 100%;
+}
+.header>div>img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.header>ol>p {
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
