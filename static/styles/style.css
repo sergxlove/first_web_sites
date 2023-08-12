@@ -98,3 +98,14 @@ a {
     padding: 0;
     margin: 0;
 }
+.list_version  {
+    padding: 0;
+    margin: 0;
+}
+.image_conteiner1 {
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
