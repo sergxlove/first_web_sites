@@ -108,4 +108,9 @@ a {
     border-width: 0.5px;
     padding: 5px;
     margin-left: 10px;
+    width: 200px;
+}
+.image_conteiner1>img {
+    max-width: 200px;
+    max-height: 200px;
 }
